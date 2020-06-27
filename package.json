@@ -1,11 +1,11 @@
 {
-  "name": "ApiFacade",
+  "name": "TypeExpressProject",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-  	"start": "nodemon --watch src --delay 1 --exec 'ts-node' src/www.ts",
-  	"build": "webpack --config webpack.config.js"
+    "start": "nodemon --watch src --delay 1 --exec 'ts-node' src/index.ts",
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,6 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "source-map-support": "^0.5.16"
+    "source-map-support": "^0.5.19"
   }
 }

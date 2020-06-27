@@ -1,2 +1,3 @@
 #!/bin/sh
-npm start
+#node ./dist/bundle.js
+npm run start
